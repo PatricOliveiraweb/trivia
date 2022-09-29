@@ -1,0 +1,19 @@
+@import "../scss/main.scss";
+
+.customButton {
+  padding: 30px 95px;
+  display: flex;
+  align-items: center;
+  color: $color-brown;
+  background: $color-secondary;
+  border-radius: 10px;
+  border: 2px solid $color-secondary;
+  font-size: 30px;
+  margin: 0 auto;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background: $color-brown;
+    color: $color-secondary;
+  }
+}

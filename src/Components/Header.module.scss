@@ -1,0 +1,9 @@
+@import "../scss/main.scss";
+
+.header {
+  display: flex;
+  justify-content: center;
+  svg {
+    max-width: 200px;
+  }
+}

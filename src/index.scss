@@ -1,0 +1,34 @@
+@import "./scss/main.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $color-primary;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.App {
+  max-width: 920px;
+  margin: 40px 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: $color-green;
+  margin-bottom: 20px;
+}
+
+img,
+svg {
+  max-width: 100%;
+}

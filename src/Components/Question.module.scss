@@ -1,0 +1,13 @@
+@import "../scss/main.scss";
+
+.questions {
+  margin-top: 50px;
+
+  ul {
+    list-style: upper-alpha;
+    padding-left: 70px;
+    li {
+      margin-bottom: 20px;
+    }
+  }
+}

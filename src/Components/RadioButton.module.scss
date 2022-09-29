@@ -1,0 +1,29 @@
+@import "../scss/main.scss";
+.customRadio {
+  position: relative;
+  display: inline-block;
+  color: $color-brown;
+  p {
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 10;
+    &:hover + p {
+      color: $color-green;
+      box-shadow: 0 0 10px $color-green, 0 0 20px $color-green,
+        0 0 30px $color-green;
+    }
+    &:checked + p {
+      background: $color-secondary;
+    }
+  }
+}
